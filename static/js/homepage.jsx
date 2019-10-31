@@ -1,6 +1,12 @@
 class Homepage extends React.Component {
 	render(){
-		return "This component needs to be implemented.";
+		return (
+            <div>
+                <p> Hi users! </p>
+                <a href="/cards">Click here to view the trading cards.</a>
+                <img src="/static/img/balloonicorn.jpg" />
+            </div>
+            );
 	}
 }
 
